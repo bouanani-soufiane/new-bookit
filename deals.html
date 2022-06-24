@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/deals.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <i class="fas fa-globe-americas"></i>
+                <span>BOOKIT</span> </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content" type="button"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link " aria-current="page">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="search">
+        <div class="container">
+            <div class="text-center text-light">
+                <h1 class=" text-capitalize">find your next stay</h1>
+                <div class="text-capitalize explore">Explore our most popular cities</div>
+                <form class="row g-3 justify-content-center mt-2" id="form">
+                    <div class="col-auto">
+                        <div class="input-group col-auto">
+                            <span class="input-group-text">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            <input type="text" class="form-control" id="search" required
+                                placeholder="e.g. Beni Mellal, Morocco" onkeypress="return onlyAlphabets(event,this);">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Search</button>
+                    </div>
+                </form>
+                <div class="row justify-content-sm-center mt-3 filter ">
+                    <div class="col-12 col-md-auto fltr-text">Filters</div>
+                    <div class="col-6 col-sm-2 "><label class="toggle">
+                            <span class="toggle-label">Economic</span>
+                            <br>
+                            <input class="toggle-checkbox" type="checkbox" checked>
+                            <div class="toggle-switch"></div>
+                        </label></div>
+                    <div class="col-6 col-sm-2 "><label class="toggle">
+                            <span class="toggle-label">Familial</span>
+                            <br>
+                            <input class="toggle-checkbox" type="checkbox">
+                            <div class="toggle-switch"></div>
+                        </label></div>
+                    <div class="col-6 col-sm-2 "><label class="toggle">
+                            <span class="toggle-label">Romantic</span>
+                            <br>
+                            <input class="toggle-checkbox" type="checkbox">
+                            <div class="toggle-switch"></div>
+                        </label></div>
+                    <div class="col-6 col-sm-2 "><label class="toggle">
+                            <span class="toggle-label">Cheap</span>
+                            <br>
+                            <input class="toggle-checkbox" type="checkbox">
+                            <div class="toggle-switch"></div>
+                        </label></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 accommodations">
+        <div class="container">
+            <h2 class="h6 acomd-text mb-2"><i class="fas fa-info fa-sm"></i> More than 500 accommodations are available
+            </h2>
+            <div class="row ">
+                <div class="col-md-8 col-sm-12 gold-coast">
+                    <h2 class="h2 text-capitalize mb-3">accommodation in Gold Coast</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="img/room9-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Avani Residences</h5>
+                                    <p class="card-text">99€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="img/room12-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Encore Broadbeach</h5>
+                                    <p class="card-text">49€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="img/room6-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Timbertop for Life</h5>
+                                    <p class="card-text">25€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="img/room7-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Broadwater Hotel</h5>
+                                    <p class="card-text">75€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="img/room13.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vue Broadbeach</h5>
+                                    <p class="card-text">89€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="img/room3-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quest Robina</h5>
+                                    <p class="card-text">55€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="img/room18.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quest Robina</h5>
+                                    <p class="card-text">119€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="img/room17.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quest Robina</h5>
+                                    <p class="card-text">59€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-md-none d-lg-block">
+                            <div class="card">
+                                <img src="img/room16.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quest Robina</h5>
+                                    <p class="card-text">85€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-1 col-sm-12 mt-2 ">
+                    <h2 class="h3 text-capitalize my-sm-4 my-md-0">Most booked this month</h2>
+                    <div class="row g-3">
+                        <div class=" col-12">
+                            <div class="card">
+                                <img src="img/room8-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Meriton Suites Surfers</h5>
+                                    <p class="card-text">99€/per night </p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-12">
+                            <div class="card">
+                                <img src="img/room14-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mantra on View Hotel</h5>
+                                    <p class="card-text">99€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-12">
+                            <div class="card">
+                                <img src="img/room15-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Avani Residences</h5>
+                                    <p class="card-text">99€/per night</p>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star colored"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="ms-3 text-primary  h6 show-more">Show More</span>
+    </section>
+    <section class="mt-5 mb-5">
+        <div class="container">
+            <h3 class="h2 ms-2 mb-5">Find spaces that suit your style</h3>
+            <div class="row gx-5">
+                <div class="col-lg-3 d-none d-lg-block col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/houses.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Houses</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/room19.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Apartments</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/landscape2-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cabins</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col d-none d-lg-block">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Bungalows.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bungalows</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/room9-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Studios</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/kesh-hotel-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Resorts</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row justify-content-md-center text-center">
+                <div class="col-lg-6 col-sm-12 mb-4">
+                    <h4>For Customers</h4>
+                    <ul>
+                        <li>
+                            <a class="d-block" href="#!">About Bookit</a>
+                            <a class="d-block" href="#!">Customer service </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>47, Bd Moulay Abdallah</li>
+                        <li>dev101@gmail.com </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-2 text-center">
+            <section class="mb-2">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

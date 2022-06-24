@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Start Our NavBar */
+.navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item a {
+    text-transform: capitalize;
+    color: #fff;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #59B3E1;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+
+/* End Our NavBar */
+/* Start Our Header */
+.img-bg {
+    background: url(../img/background-1-min.jpg) top center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    padding-top: 12vh;
+    padding-bottom: 22vh;
+}
+
+.header h1 {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+
+@media (min-width: 200px) {
+    h1 {
+        font-size: 2.4rem;
+        margin-left: 40px;
+    }
+
+    .header .auto-type {
+        margin-left: 0.1em;
+        font-size: 3rem;
+    }
+
+    .header p {
+        margin-bottom: 2em;
+        margin-top: 2em;
+        line-height: 1.8;
+        margin-left: 3em !important;
+    }
+}
+
+
+
+@media (min-width: 400px) {
+    h1 {
+        font-size: 3rem;
+        margin-left: 40px;
+    }
+
+    .header .auto-type {
+        margin-left: 0.1em;
+        font-size: 3.4rem;
+    }
+
+    .header p {
+        margin-bottom: 3em;
+        margin-top: 3em;
+        line-height: 1.9;
+    }
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 3.6rem;
+        margin-left: 80px;
+    }
+
+    .header .auto-type {
+        margin-left: 0.1em;
+        font-size: 3.8rem;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .header p {
+        position: absolute;
+        top: 8em;
+        left: 3em;
+    }
+
+
+
+    .header .container .btn {
+        position: absolute;
+        top: 20em;
+        left: 2em;
+
+    }
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 4.9rem;
+        margin-left: 80px;
+    }
+
+    .header .auto-type {
+        margin-left: 0.1em;
+        font-size: 5rem;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .header p {
+        position: absolute;
+        top: 10.5em;
+        left: 3.4em;
+    }
+
+    .header .container .btn {
+        position: absolute;
+        top: 22em;
+        left: 2em;
+
+    }
+
+
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 6.2rem;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .header p {
+        position: absolute;
+        top: 13em;
+        left: 3.4em;
+    }
+
+    .header .container .btn {
+        position: absolute;
+        top: 24em;
+        left: 2em;
+
+    }
+}
+
+
+.header p,
+.header button {
+    max-width: 500px;
+    margin-left: 5rem;
+}
+
+.header button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.header button:hover {
+    color: #fff;
+    background-color: #59B3E1;
+    border-color: #59B3E1;
+}
+
+.header button:focus {
+    color: #fff;
+    outline: none;
+    box-shadow: none !important;
+}
+
+
+
+/* End Our Header */
+/* Start Our Form */
+
+.booking h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    letter-spacing: -5px;
+    color: #0e2250;
+    text-transform: capitalize;
+
+}
+
+.booking div.lead {
+    color: #0e2250;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.form-control:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 0px #59B3E1 !important;
+}
+
+.booking form {
+    background-color: #4c96d5;
+    padding: 1.8em;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.booking form label {
+    color: #fff;
+    border-bottom: 4px solid #0e22500c;
+}
+
+.booking form input {
+    background-color: #376cc8;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 0px #59B3E1 !important;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.booking ::placeholder {
+    color: #fff !important;
+}
+
+.booking form span {
+    background-color: #376cc8;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.booking .btn-secondary {
+    padding: 1em;
+    margin-top: 1.6em;
+    background-color: #0e2250;
+}
+
+.booking .btn-secondary:hover {
+    background-color: #0e2250c5 !important;
+}
+#check-out:invalid {
+    color: red;
+  }
+
+@media (min-width: 200px) {
+    .booking form label {
+        margin-left: 6px;
+        margin-top: 10px;
+    }
+
+    .booking .btn-secondary {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .booking .btn-secondary {
+        margin-top: 2.4em;
+    }
+}
+
+/* End Our Form */
+/* Start Our About  */
+.about .img {
+    position: relative;
+}
+
+.about .image1 {
+    width: 370px;
+    height: 450px;
+}
+
+.about .image2 {
+    width: 355px;
+    height: 220px;
+    position: absolute;
+    top: 55%;
+    left: 70px;
+    z-index: 2;
+}
+
+.about .h6 {
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+.about .h6::after {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #3970C3;
+}
+
+.about .lead {
+    line-height: 1.5;
+    margin-left: 1.5em;
+    font-size: 1.2rem;
+}
+
+.about span {
+    margin-left: 1.6em;
+    cursor: pointer;
+    color: #3970C3;
+    border-bottom: 2px solid #3970C3;
+}
+
+@media (max-width: 1000px) {
+    .about .img {
+        display: none;
+    }
+}
+
+/* End Our About  */
+/* Start Our Properties */
+.properties {
+    margin-top: 7em;
+    background: url(../img/background-2-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+
+}
+
+.properties {
+    margin-bottom: 11em;
+}
+
+.properties .container {
+    position: static !important;
+}
+
+.properties .container .text {
+    background: #108dc7a8;
+    color: #fff;
+    width: 600px;
+    text-shadow: 3px 3px 3px #222222;
+    border-radius: 3px;
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 600px;
+    position: absolute;
+    top: -13%;
+    right: 8%;
+
+}
+
+.properties h2 {
+    font-weight: 400;
+}
+
+.properties p {
+    margin: 10px 0 50px 4px;
+    line-height: 30px;
+}
+
+.properties .container .flex {
+    display: flex;
+
+}
+
+.properties i {
+    margin: 5px 20px 0 0;
+}
+
+@media (min-width: 200px) {
+    .properties .container .text {
+        right: 1.7em;
+        width: 270px;
+    }
+
+    .properties h2 {
+        text-align: center;
+    }
+
+    .properties p {
+        line-height: 1.4;
+        text-align: center;
+
+    }
+}
+
+
+@media (min-width: 400px) {
+    .properties .container .text {
+        right: 7%;
+        width: 350px;
+    }
+
+    .properties p {
+
+        line-height: 1.3;
+        text-align: left;
+
+    }
+
+    .properties h2 {
+        text-align: left;
+        margin-top: 1.5em;
+    }
+}
+
+@media (min-width: 600px) {
+
+    .properties .container .text {
+        right: 8%;
+        width: 500px;
+    }
+    .properties p {
+
+        line-height: 1.5;
+
+    }
+    .properties h2 {
+        margin-top: 2em;
+    }
+
+
+}
+
+@media (min-width: 800px) {
+    .properties h2 {
+        margin-top: 0em;
+
+    }
+}
+
+/* End Our Properties */
+/* Start Our Rooms */
+.rooms .box {
+    box-shadow: 0 13px 43px 10px rgba(204, 128, 30, 0.1);
+    padding: 1em;
+}
+
+.rooms .h6 {
+    font-size: 14px;
+    margin-left: 4px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.rooms .h6::after {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #3970C3;
+}
+
+.rooms img {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+    transition: 1s ease;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rooms img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.rooms .text h4 {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 4px;
+}
+
+.rooms p span {
+    font-size: 12px;
+    color: grey;
+}
+
+.rooms p {
+    font-size: 20px;
+}
+
+/* End Our Rooms */
+/* Start Our Commitment */
+.col-gap {
+    column-gap: 2rem;
+}
+
+.commitment {
+    background-color: #e6ece92f;
+    padding: 2em;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.commitment .card {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.commitment .card P {
+    font-size: 15px;
+}
+
+.card-body .fas {
+    color: #3970C3;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -moz-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+/* End Our commitment */
+/* Start Our Testimonials */
+
+.testimonial-section {
+    margin-bottom: 3em;
+    background-color: #ffffff;
+    padding: 80px 0;
+    min-height: 100vh;
+    box-shadow: 7px 7px 14px #c5c5c5,
+        -7px -7px 14px #fbfbfb;
+}
+
+.testimonial-section h3 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #0e2250;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+
+.testi-img .img-box {
+    max-width: 360px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.testi-img .circle {
+    height: 360px;
+    width: 360px;
+    background-color: #376cc8af;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.testi-img .img-box-inner {
+    position: relative;
+    border-radius: 0 0 180px 180px;
+    overflow: hidden;
+}
+
+.testi-img .img-box-inner img {
+    max-width: 310px;
+}
+
+.testimonial-section .carousel-inner {
+    margin-bottom: 20px;
+}
+
+.testimonial-section .carousel-control-prev {
+    margin-right: 10px;
+}
+
+.testimonial-section .carousel-control-next,
+.testimonial-section .carousel-control-prev {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: #376cc8;
+    display: inline-flex;
+    border-radius: 50%;
+}
+
+.testimonial-section .carousel-control-prev img,
+.testimonial-section .carousel-control-next img {
+    width: 15px;
+}
+
+.testi-item h3,
+.testi-item p {
+    font-size: 18px;
+}
+
+.testi-item h3 {
+    text-transform: capitalize;
+}
+
+
+@media(max-width:991px) {
+    .testi-img .img-box {
+        max-width: 300px;
+    }
+
+    .testi-img .circle {
+        height: 300px;
+        width: 300px;
+    }
+
+    .testi-img .img-box-inner {
+        border-radius: 0 0 150px 150px;
+    }
+
+    .testi-img .img-box-inner img {
+        max-width: 230px;
+    }
+}
+
+@media(max-width:767px) {
+    .testi-img {
+        margin-bottom: 25px;
+    }
+}
+
+/* End Our Testimonials */
+/* Start Our Partners */
+.partners h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.partners .partner {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* End Our Partners */
+/* Start Our Email */
+.email-us {
+    padding: 2em;
+    background-color: #376cc81f;
+}
+
+.email-us h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
+#form .input-box {
+    position: relative;
+}
+
+#text {
+    display: block;
+    font-weight: 500;
+    padding: 5px;
+}
+
+#form.invalid .input-box::before {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 9px;
+    width: 19px;
+    height: 19px;
+    background: url(../img/times-circle-regular.svg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#form.valid .input-box::before {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 9px;
+    width: 19px;
+    height: 19px;
+    background: url(../img/check-circle-solid.svg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* End Our Email */
+
+/* Start Our Footer */
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul a {
+    text-decoration: none;
+    margin-left: 2px;
+    color: black;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+
+}
+
+footer ul a:hover {
+    color: #59B3E1;
+
+}
+
+footer i {
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+footer i:hover {
+    font-size: 28px;
+
+}
+
+
+/* End Our Footer */

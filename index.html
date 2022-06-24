@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="img-bg">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <i class="fas fa-globe-americas"></i>
+                    <span>BOOKIT</span> </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content" type="button"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active" aria-current="page">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="deals.html" class="nav-link">deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="header" id="jsHeader">
+            <div class="container ">
+                <h1 class="text-light">breathtaking <br> <span class="auto-type"></span></h1>
+                <p class="text-light ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam enim
+                    debitis
+                    provident corrupti repellendus delectus labore nostrum alias, consectetur harum accusat?</p>
+                <button class="btn rounded-pill">more info</button>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <section class="booking mb-5">
+            <div class="text-center">
+                <h2 class=" display-2 mt-5">Find your next stay</h2>
+                <div class=" lead my-4">Search deals on hotels, homes, and much more...</div>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-lg-2 col-md-4">
+                        <label for="palce" class="form-label">Where to?</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                            <input type="text" class="form-control" placeholder="e.g. Marrakesh" id="place" required
+                                onkeypress="return onlyAlphabets(event,this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <label for="check-in" class="form-label">Check-in:</label>
+                        <input type="date" class="form-control" id="check-in"  required>
+
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <label for="check-out" class="form-label">Check-out:</label>
+                        <input type="date" class="form-control" id="check-out"  required>
+
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <label for="adilts" class="form-label">Adults:</label>
+                        <input type="number" class="form-control" placeholder="1" min="1" max="5" id="adults">
+
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <label for="children" class="form-label">Children:</label>
+                        <input type="number" class="form-control" placeholder="1" min="0" max="5" id="children">
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <input type="submit" class="btn btn-secondary" value="Search">
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="about mt-2">
+            <div class="row">
+                <div class="col-lg-5 img">
+                    <img src="img/landscape3-min.jpg" class="img-fluid image1" alt="hotel image">
+                    <img src="img/landscape-min.jpg" class="img-fluid image2" alt="hotel image">
+                </div>
+                <div class="col-lg-5 col-md-12 offset-lg-1">
+                    <h3 class="h6 mt-4">RAISING COMFOMRT TO THE HIGHEST LEVEL</h3>
+                    <h3 class="h1 mb-3 mt-3">Welcome to Bookit</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut laboreet dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat upidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <span>Read More</span>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <section class="properties">
+        <div class="container">
+            <div class="text">
+                <h2>Travel with confidence</h2>
+                <p>Many properties have updated us about their enhanced health and safety measures. So, during your
+                    search, you may find details like:</p>
+                <div class="content row">
+                    <div class="col-6 mb-sm-4">
+                        <div class="flex">
+                            <i class="fas fa-check"></i>
+                            <span>Official health standards</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-sm-4">
+                        <div class="flex">
+                            <i class="fas fa-check"></i>
+                            <span>Hygiene and sanitisation</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-sm-4">
+                        <div class="flex">
+                            <i class="fas fa-check"></i>
+                            <span>Re-booking when <br> you need it</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-sm-4">
+                        <div class="flex">
+                            <i class="fas fa-check"></i>
+                            <span>Essentials at the property</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-sm-4">
+                        <div class="flex">
+                            <i class="fas fa-check"></i>
+                            <span>Protecting your payments</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-sm-4">
+                        <div class="flex">
+                            <i class="fas fa-check"></i>
+                            <span>Selecting Premier Hosts</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-sm-4">
+                        <div class="flex">
+                            <i class="fas fa-check"></i>
+                            <span>Social distancing</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-sm-4">
+                        <div class="flex">
+                            <i class="fas fa-check"></i>
+                            <span>Screening for fraud</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rooms mb-5">
+        <div class="container">
+            <h3 class="h6">A snapshot of the world’s most picture-perfect properties </h3>
+            <h3 class="h2">Check out some of our favourite unique stays </h3>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-2 box ">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/room1-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Hyatt Regency Mexico City</h4>
+                        <p> <span>$</span>129 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/room1-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Kakslauttanen Arctic Resort</h4>
+                        <p> <span>$</span>159 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/room1-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Rio de Janeiro Hotel</h4>
+                        <p> <span>$</span>199 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/room1-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>HOSHINOYA Fuji Hotel</h4>
+                        <p> <span>$</span>220 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/room1-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Superior Soble Rooms</h4>
+                        <p> <span>$</span>90 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/room1-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Golden Cherry Motel</h4>
+                        <p> <span>$</span>399 <span>/per night</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rooms mb-5">
+        <div class="container">
+            <h3 class="h6">A snapshot of the world’s most picture-perfect properties </h3>
+            <h3 class="h2">Popular destinations for long stays next to the beach </h3>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-2 box ">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/beach-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Hyatt Regency Mexico City</h4>
+                        <p> <span>$</span>159 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/beach-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Kakslauttanen Arctic Resort</h4>
+                        <p> <span>$</span>149 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/beach-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Rio de Janeiro Hotel</h4>
+                        <p> <span>$</span>80 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/beach-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>HOSHINOYA Fuji Hotel</h4>
+                        <p> <span>$</span>289 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/beach-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Superior Soble Rooms</h4>
+                        <p> <span>$</span>99 <span>/per night</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 box">
+                    <div class="img">
+                        <a href="#" target="_blank"><img class="img-fluid" src="img/beach-min.jpg" alt="hotel room"></a>
+                    </div>
+                    <div class="text">
+                        <h4>Golden Cherry Motel</h4>
+                        <p> <span>$</span>179 <span>/per night</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="container ">
+            <h3 class="h2 mb-5 ms-2"> Monthly Rentals on Bookit</h3>
+            <div class="row row-cols-1 row-cols-md-4 g-4 commitment">
+                <div class="col">
+                    <div class="card h-100">
+
+                        <div class="card-body">
+                            <i class="fa-solid fa-circle-check fas mb-4 fa-xl m-3"></i>
+                            <h3 class="h5 card-title">Peace of mind</h3>
+                            <p class="card-text">Our Book with Confidence guarantee gives you 24/7 support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+
+                        <div class="card-body">
+                            <i class="fas fa-mug-hot mb-4 fa-xl m-3"></i>
+                            <h3 class="h5 card-title">All the privacy of home</h3>
+                            <p class="card-text">Enjoy full kitchens, laundry, pools, yards and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+
+                        <div class=" card-body">
+                            <i class="fas fa-plus-circle mb-4 fa-xl m-3"></i>
+                            <h3 class="h5 card-title">More for less</h5>
+                                <p class="card-text">More space, more privacy, more amenities — more value</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+
+                        <div class=" card-body">
+                            <i class="fas fa-door-open mb-4 fa-xl m-3"></i>
+                            <h3 class="h5 card-title">A place for everyone</h5>
+                                <p class="card-text">We stand for diversity, inclusion and families everywhere</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section d-flex align-items-center">
+        <div class="container">
+            <h3 class="text-center">What Our Client Says</h3>
+            <div class="row align-items-center">
+                <div class="col-md-6 testi-img">
+                    <div class="img-box">
+                        <div class="circle"></div>
+                        <div class="img-box-inner">
+                            <img src="img/1.png" alt="testi img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="myCarousel" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item testi-item active" data-color="#376cc8af" data-img="img/1.png">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis ratione, harum
+                                    doloremque aspernatur aliquid quaerat dolores voluptates recusandae qui repellat
+                                    illum, amet ipsa debitis fugiat commodi nemo suscipit ad!</p>
+                                <h3>Yaron Schoen - <span>web developer</span></h3>
+                            </div>
+                            <div class="carousel-item testi-item" data-color="#5C7AEA" data-img="img/2.png">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis ratione, harum
+                                    doloremque aspernatur aliquid quaerat dolores voluptates recusandae qui repellat
+                                    illum, amet ipsa debitis fugiat commodi nemo suscipit ad!</p>
+                                <h3>Mike Kus - <span>web developer</span></h3>
+                            </div>
+                            <div class="carousel-item testi-item" data-color="#6A67CE" data-img="img/3.png">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis ratione, harum
+                                    doloremque aspernatur aliquid quaerat dolores voluptates recusandae qui repellat
+                                    illum, amet ipsa debitis fugiat commodi nemo suscipit ad!</p>
+                                <h3>Shane Mielke - <span>web developer</span></h3>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="prev">
+                            <img src="img/left-arrow.png" alt="prev">
+                            <span class="visually-hidden"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                            data-bs-slide="next">
+                            <img src="img/right-arrow.png" alt="prev">
+                            <span class="visually-hidden"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-5 col-md-12 ms-sm-5 ms-lg-0">
+                    <h4>Hotel Partners</h4>
+                    <div class="partner">Domestic & International Hotel Partners</div>
+                    <p>We are partnering with hotel chains across the globe to ensure a comfortable stay wherever you
+                        travel!</p>
+                </div>
+                <div class="col-lg-6 offset-1">
+                    <div class="row row-cols-4">
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/marriott-hotels.png" />
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/hulu.png" />
+
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/doodle/48/000000/hollister.png" />
+
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/windows/32/000000/hips-logo.png" />
+
+                        </div>
+                    </div>
+                    <div class="row row-cols-4">
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/gg.png" />
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/mclaren.png" />
+
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/disney-logo.png" />
+
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/fluency/48/000000/exchange-lira.png" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="row mb-5 mt-5">
+                <div class="col-lg-5 col-md-12 ms-sm-5 ms-lg-0">
+                    <h4>Payment Partners</h4>
+                    <p>We are partnering with the most reliable payment service providers to make sure every transaction
+                        is smooth and worry-free</p>
+                </div>
+                <div class="col-lg-6 offset-1">
+                    <div class="row row-cols-4">
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/visa.png" />
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/mastercard.png" />
+
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/stripe.png" />
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/amex.png" />
+
+                        </div>
+                    </div>
+                    <div class="row row-cols-4">
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/bitcoin--v1.png" />
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/paypal.png" />
+
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/wellsfargo.png" />
+
+                        </div>
+                        <div class="col">
+                            <img src="https://img.icons8.com/color/48/000000/bank-of-america.png" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="email-us">
+        <div class="container">
+            <div class="text-center">
+                <h4>Save time, save money!</h4>
+                <div>Sign up and we'll send the best deals to you</div>
+            </div>
+            <form class="row g-3 justify-content-center mt-2" id="form">
+                <div class="col-auto input-box">
+                    <input type="email" class="form-control" id="email" required placeholder="name@example.com"
+                        onkeydown="validation()">
+                    <span id="text"></span>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row justify-content-md-center text-center">
+                <div class="col-lg-6 col-sm-12 mb-4">
+                    <h4>For Customers</h4>
+                    <ul>
+                        <li>
+                            <a class="d-block" href="#!">About Bookit</a>
+                            <a class="d-block" href="#!">Customer service </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>47, Bd Moulay Abdallah</li>
+                        <li>dev101@gmail.com </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-2 text-center">
+            <section class="mb-2">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Hotels", "Lodging", "Hostels", "Houses"],
+            typedSpeed: 900,
+            backSpeed: 200,
+            loop: true,
+        })
+    </script>
+</body>
+
+</html>
